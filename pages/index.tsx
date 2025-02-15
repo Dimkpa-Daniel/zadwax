@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="p-5 lg:p-6">
+    <main className="p-5 lg:p-6 ">
       <Head>
         <title>Zadwax</title>
       </Head>

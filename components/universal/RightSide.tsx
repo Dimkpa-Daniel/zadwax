@@ -60,7 +60,7 @@ const RightSide: React.FC<rightSideProp> = ({
         </div>
         {/* End of Top Section */}
 
-        <div className=" overflow-y-scroll max-h-[500px] no-scrollbar">
+        <div className="overflow-y-scroll max-h-full sm:max-h-full no-scrollbar">
         {children}
         </div>
       </div>

@@ -28,7 +28,7 @@ const Resources = () => {
     <div className="mt-8">
       <h1 className="text-xl text-gray-950 font-bold sm:text-center lg:text-start">Resources for you</h1>
       {/* Cards */}
-      <div className="flex items-center justify-center gap-3 flex-wrap mt-3">
+      <div className="flex items-center justify-center xl:justify-between gap-3 flex-wrap mt-3">
         {resourcesData.map((data, index) => (
           <div
             key={index}
